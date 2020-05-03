@@ -1,0 +1,39 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header') %>
+</header>
+
+<main>
+<div class="row">
+    <div class="col-sm-8">    
+        <div class="jumbotron">
+            <h1>Login : </h1>
+            <form method="POST" action="/login">
+                <input type="email" name="email" placeholder="email">
+                <input type="password" name="password" placeholder="password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div class="container">
+            Have Not Registered? <br>
+            <a href="/">Register</a>
+        </div>
+    </div>
+
+</div>
+</main>
+
+<footer>
+    <%- include('../partials/footer') %>
+</footer>
+
+</body>
+</html>

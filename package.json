@@ -1,0 +1,21 @@
+{
+  "name": "temp",
+  "version": "1.0.0",
+  "description": "url-shortener",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alert": "^4.1.1",
+    "config": "^3.2.5",
+    "ejs": "^3.0.1",
+    "ejs-lint": "^1.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9",
+    "mysql": "^2.17.1",
+    "opn": "^6.0.0"
+  }
+}

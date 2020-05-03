@@ -1,0 +1,33 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('../partials/head') %>
+</head>
+<body class="container">
+
+<header>
+    <%- include('../partials/header') %>
+</header>
+
+<main>
+<div class="row">
+    <div class="col-sm-8">    
+        <div class="jumbotron">
+            <h1>Company Details : </h1>
+            <p><%= companyDetails.jobDesignation %></p>
+            <p><%= companyDetails.Name %></p>
+            <p><a href="/companyDetails?companyName=<%= companyDetails.companyName %>"><%= companyDetails.companyName %></a></p>
+        </div>
+    </div>
+
+</div>
+</main>
+
+<footer>
+    <%- include('../partials/footer') %>
+</footer>
+
+</body>
+</html>
